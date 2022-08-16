@@ -132,8 +132,8 @@ $ for var in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN AWS_SECUR
       a) *Download binary*
       sudo yum update -y
       sudo yum install wget unzip -y
-      sudo wget https://releases.hashicorp.com/terraform/1.4.4/terraform_1.1.4_linux_amd64.zip
-      sudo unzip terraform_1.1.4_linux_amd64.zip -d /usr/local/bin
+      sudo wget https://releases.hashicorp.com/terraform/1.2.7/terraform_1.2.7_linux_amd64.zip
+      sudo unzip terraform_1.2.7_linux_amd64.zip -d /usr/local/bin
       terraform -v
 
       b) *Install from hashicorp repo*
